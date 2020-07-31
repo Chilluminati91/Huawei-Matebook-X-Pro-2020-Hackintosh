@@ -13,21 +13,21 @@
 | Touchscreen  | I2C HID Based  |
 | SSD  | 512GB WDC PC SN730  |
 
-What's working:
+**What's working:**
 - Battery Status (Patched DSDT)
 - iGPU Acceleration
 - Brightness Keys (Patched DSDT)
 - CPU Power Management
 
-Semi working:
+**Semi working:**
 - Bluetooth using [OpenIntelWireless](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)(Can connect for a short time)
 
-Not working:
+**Not working:**
 - Trackpad and Touchscreen (Hotpatch required)
 - Audio (New Layout-ID required)
 - WIFI (Should be possible with [itlwm](https://github.com/OpenIntelWireless/itlwm/blob/master/.github/README_en.md))
 
-
+<br>
 # Installation:
 Use the included Clover folder on a USB Drive to install macOS Catalina on the Laptop. Credits to [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh)
 
