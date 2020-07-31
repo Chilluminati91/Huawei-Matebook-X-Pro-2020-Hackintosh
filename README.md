@@ -21,12 +21,13 @@
 - iGPU Acceleration
 - Brightness Keys (Patched DSDT)
 - CPU Power Management
+- Trackpad with tap-to-click (Thanks [profzei](https://github.com/profzei/Matebook-X-Pro-2018))
 
 **Semi working:**
 - Bluetooth using [OpenIntelWireless](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)(Can connect for a short time)
 
 **Not working:**
-- Trackpad and Touchscreen (Hotpatch required)
+- Touchscreen (disabled for now)
 - Audio (New Layout-ID required)
 - WIFI (Should be possible with [itlwm](https://github.com/OpenIntelWireless/itlwm/blob/master/.github/README_en.md))
 
