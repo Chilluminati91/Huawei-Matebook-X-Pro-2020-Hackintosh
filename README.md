@@ -28,6 +28,7 @@
 - WIFI (Should be possible with [itlwm](https://github.com/OpenIntelWireless/itlwm/blob/master/.github/README_en.md))
 
 <br>
+
 # Installation:
 Use the included Clover folder on a USB Drive to install macOS Catalina on the Laptop. Credits to [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh)
 
