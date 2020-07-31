@@ -1,6 +1,7 @@
 # Huawei Matebook X Pro 2020 macOS Catalina 10.15.05
  OpenCore Config to run macOS Catalina on the Matebook X Pro 2020
 
+<br>
 
 | Device  | Spec |
 | ------------- | ------------- |
@@ -12,6 +13,8 @@
 | Trackpad  | I2C HID Based  |
 | Touchscreen  | I2C HID Based  |
 | SSD  | 512GB WDC PC SN730  |
+
+<br>
 
 **What's working:**
 - Battery Status (Patched DSDT)
@@ -28,6 +31,7 @@
 - WIFI (Should be possible with [itlwm](https://github.com/OpenIntelWireless/itlwm/blob/master/.github/README_en.md))
 
 <br>
+
 # Installation:
 Use the included Clover folder on a USB Drive to install macOS Catalina on the Laptop. Credits to [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh)
 
