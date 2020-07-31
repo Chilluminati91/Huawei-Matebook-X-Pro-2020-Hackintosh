@@ -38,3 +38,4 @@ Use the included Clover folder on a USB Drive to install macOS Catalina on the L
 # Post Installation:
 Replace the Clover folder on your USB Drive with the OpenCore Folder from my repo. This folder will be updated each time I make improvements.
 Boot into macOS, mount your internal and external EFI volumes and copy over OpenCore to your internal SSD.
+When booting with the OpenCore config the screen will turn black after verbose. Close your lid for 2 seconds, reopen it and the screen will be back.
