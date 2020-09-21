@@ -13,7 +13,7 @@ OpenCore Config to run macOS Big Sur BETA on the Matebook X Pro 2020.
 
 ### Not working:
 
-*   BatteryStatus
+*   Thunderbolt 3 (not tested)
 *   Brightness Keys
 
 ### BIOS Modding:
