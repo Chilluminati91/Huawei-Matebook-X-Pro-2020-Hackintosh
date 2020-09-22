@@ -58,3 +58,4 @@ This is only suggested for people who know what they are doing. I am not going t
 *   Rehabman for a lot of great guides and general knowledge
 *   [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh) for a general idea on how to handle this laptop
 *   The [OpenCore Team](https://github.com/acidanthera/OpenCorePkg/releases) for this brilliant bootloader
+*   gnodipac886 and profzei for their respective repo's for the 2018 model
