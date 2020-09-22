@@ -1,6 +1,6 @@
-# **Huawei Matebook X Pro 2020 macOS Big Sur BETA**
+# **Huawei Matebook X Pro 2020 macOS Catalina / Big Sur BETA**
 
-OpenCore 6.0.1 Config to run macOS Big Sur BETA on the Matebook X Pro 2020.
+OpenCore 6.0.1 Config to run macOS Catalina / Big Sur BETA on the Matebook X Pro 2020.
 
 This whole setup took me about 50 work hours to get where it is now, if you want to buy me a beer or donate a bit you can do it [via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dopfunk91%40gmail.com&currency_code=EUR&source=url)! Appreciate it!
 
