@@ -1,6 +1,6 @@
-# **Huawei Matebook X Pro 2020 macOS Catalina / Big Sur BETA**
+# **Huawei Matebook X Pro 2020 macOS Catalina / (Big Sur BETA)**
 
-OpenCore 6.0.1 Config to run macOS Catalina / Big Sur BETA on the Matebook X Pro 2020.
+OpenCore 6.0.1 Config to run macOS Catalina / (Big Sur BETA) on the Matebook X Pro 2020.
 
 This whole setup took me about 50 work hours to get where it is now, if you want to buy me a beer or donate a bit you can do it [via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dopfunk91%40gmail.com&currency_code=EUR&source=url)! Appreciate it!
 
@@ -34,7 +34,7 @@ This is only suggested for people who know what they are doing. I am not going t
     *   PlatformInfo: new MLB, System Serial Number and UUID
     *   If you dont have CFG Lock disabled enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
 2.  Create a bootable Linux (Ubuntu) USB (Enough guides on the internet) and format your SSD in 4k Sectors. This is recommended but not necessary.
-3.  Create a macOS Install Stick (Big Sur) with gibmacOS (Guide: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#installation).
+3.  Create a macOS Install Stick (Catalina or Big Sur) with gibmacOS (Guide: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html).
 4.  After the stick is complete close terminal, mount the EFI and add the OpenCore EFI. Open up DiskUtility and eject the Install Partitions on the very bottom first, then eject the USB drive (Eject All)
 5.  Boot your Matebook while holding F2 and change the following Bios settings:
     *   Secure Boot: Disabled
