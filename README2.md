@@ -1,6 +1,8 @@
 # **Huawei Matebook X Pro 2020 macOS Big Sur BETA**
 
-OpenCore Config to run macOS Big Sur BETA on the Matebook X Pro 2020.
+OpenCore 6.0.1 Config to run macOS Big Sur BETA on the Matebook X Pro 2020.
+
+This whole setup took me about 50 work hours to get where it is now, if you want to buy me a beer or donate a bit you can do it [via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dopfunk91%40gmail.com&currency_code=EUR&source=url)! Appreciate it!
 
 | Device | Spec |
 | --- | --- |
@@ -15,7 +17,6 @@ OpenCore Config to run macOS Big Sur BETA on the Matebook X Pro 2020.
 
 *   Thunderbolt 3 (not tested)
 *   Bluetooth
-*   Brightness Keys
 
 ### BIOS Modding:
 
@@ -29,7 +30,7 @@ This is only suggested for people who know what they are doing. I am not going t
 
 1.  Open the config.plist and make the following Changes:
     *   PlatformInfo: new MLB, System Serial Number and UUID
-    *   If you dont have CFG Lock disabled (Guide will follow) enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
+    *   If you dont have CFG Lock disabled enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
 2.  Create a bootable Linux (Ubuntu) USB (Enough guides on the internet) and format your SSD in 4k Sectors. This is recommended but not necessary.
 3.  Create a macOS Install Stick (Big Sur) with gibmacOS (Guide: https://dortania.github.io/OpenCore-Install-Guide/extras/big-sur/#installation).
 4.  After the stick is complete close terminal, mount the EFI and add the OpenCore EFI. Open up DiskUtility and eject the Install Partitions on the very bottom first, then eject the USB drive (Eject All)
@@ -40,3 +41,11 @@ This is only suggested for people who know what they are doing. I am not going t
     *   Virtualization Technology: Disabled
 6.  Insert the Opencore Stick, Boot your Matebook while holding F12 and select the USB drive. Navigate to Install macOS and press enter. Go through the macOS Installer. This will take a while (do not turn off the Laptop if it seems like its frozen) and a couple of automatic reboots. You will get a blackscreen after reaching the Apple logo. Close the lid for a second and open it again. This is necessary every time you boot macOS.
 7.  Go through the macOS Setup and once you reach the desktop, go to settings -> Trackpad and disable ForceTouch.
+
+### Thanks to:
+
+*   The [Dortania Team](https://dortania.github.io/OpenCore-Install-Guide/) for their incredible guide and documentation
+*   [moh.96](https://www.tonymacx86.com/members/moh-96.1994677/) and [BlvckBytes](https://www.tonymacx86.com/members/blvckbytes.1808868/) for the battery hotpatch
+*   Rehabman for a lot of great guides and general knowledge
+*   [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh) for a general idea on how to handle this laptop
+*   The [OpenCore Team](https://github.com/acidanthera/OpenCorePkg/releases) for this brilliant bootloader
