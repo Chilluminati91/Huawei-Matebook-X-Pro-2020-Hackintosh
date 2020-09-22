@@ -16,6 +16,7 @@ This whole setup took me about 50 work hours to get where it is now, if you want
 ### Not working:
 
 *   Thunderbolt 3 (not tested)
+*   Second USB-C Port (Does work if plugged in while booting)
 *   Bluetooth
 
 ### BIOS Modding:
