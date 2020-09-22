@@ -18,6 +18,7 @@ This whole setup took me about 50 work hours to get where it is now, if you want
 *   Thunderbolt 3 (not tested)
 *   Second USB-C Port (Does work if plugged in while booting)
 *   Bluetooth
+*   Touchscreen (disabled for now)
 
 ### BIOS Modding:
 
@@ -41,7 +42,14 @@ This is only suggested for people who know what they are doing. I am not going t
     *   Thunderbolt -> Security Level: No Security
     *   Virtualization Technology: Disabled
 6.  Insert the Opencore Stick, Boot your Matebook while holding F12 and select the USB drive. Navigate to Install macOS and press enter. Go through the macOS Installer. This will take a while (do not turn off the Laptop if it seems like its frozen) and a couple of automatic reboots. You will get a blackscreen after reaching the Apple logo. Close the lid for a second and open it again. This is necessary every time you boot macOS.
-7.  Go through the macOS Setup and once you reach the desktop, go to settings -> Trackpad and disable ForceTouch.
+7.  Go through the macOS Setup
+
+### Post-Installation:
+
+*   Install [Heliport](https://github.com/OpenIntelWireless/HeliPort) for IntelWifi
+*   Disable Forcetouch in Settings -> Trackpad
+*   Undervolt your Matebook with [Voltageshift](https://github.com/sicreative/VoltageShift)
+*   Install [ALCPlugFix](https://github.com/profzei/Matebook-X-Pro-2018/tree/master/ALCPlugFix)
 
 ### Thanks to:
 
