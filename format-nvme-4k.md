@@ -5,7 +5,7 @@
 *   Create a bootable Linux USB, I'd suggest [Ubuntu](https://ubuntu.com/download) and Balena Etcher on macOS
 *   Boot into Ubuntu and connect to your WIFI
 *   Open up your settings and enable Universe Repo
-*   Open up the commandline and inser the following commands one after the other:
+*   Open up the commandline and insert the following commands one after the other:
 
 ```
 sudo apt install smartmontools
