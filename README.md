@@ -9,9 +9,9 @@ This whole setup took me about 50 work hours to get where it is now, if you want
 | CPU | Intel i5-10210U / Intel i7-10510U |
 | iGPU | Intel UHD 620 |
 | dGPU | Nvidia MX250 (Disabled) |
-| WIFI / BT | Intel AC9560 (id=97) |
+| WIFI / BT | Intel AC9560 |
 | SSD | 512GB WDC PC SN730 |
-| Audio | Realtek ALC256 |
+| Audio | Realtek ALC256 (id=97) |
 
 ### Not working:
 
