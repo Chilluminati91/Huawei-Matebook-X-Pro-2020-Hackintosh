@@ -50,6 +50,7 @@ This is only suggested for people who know what they are doing. I am not going t
 *   Disable Forcetouch in Settings -> Trackpad
 *   Undervolt your Matebook with [Voltageshift](https://github.com/sicreative/VoltageShift)
 *   Install [ALCPlugFix](https://github.com/profzei/Matebook-X-Pro-2018/tree/master/ALCPlugFix)
+*   For the Intel i7 version create a [custom CPUFriend](https://github.com/stevezhengshiqi/one-key-cpufriend)
 
 ### Fixing Sleep (taken from Profzei):
 
