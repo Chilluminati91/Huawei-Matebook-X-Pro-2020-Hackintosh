@@ -85,4 +85,4 @@ By default macOS only uses 2 out of your 4 speakers which sound muffled and are 
 *   Rehabman for a lot of great guides and general knowledge
 *   [Laozhiang](https://github.com/laozhiang/MateBook_13_14_XPro-Hackintosh) for a general idea on how to handle this laptop
 *   The [OpenCore Team](https://github.com/acidanthera/OpenCorePkg/releases) for this brilliant bootloader
-*   gnodipac886 and [profzei](https://github.com/profzei/Matebook-X-Pro-2018) for their respective repo's for the 2018 model and ACPI files
+*   [gnodipac886](https://github.com/gnodipac886/MatebookXPro-hackintosh) and [profzei](https://github.com/profzei/Matebook-X-Pro-2018) for their respective repo's for the 2018 model and ACPI files
