@@ -33,7 +33,7 @@ This is only suggested for people who know what they are doing. I am not going t
 1.  Open the config.plist and make the following Changes:
     *   PlatformInfo: new MLB, System Serial Number and UUID
     *   If you dont have CFG Lock disabled enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
-2.  Create a bootable Linux (Ubuntu) USB (Enough guides on the internet) and format your SSD in 4k Sectors. This is recommended but not necessary.
+2.  Create a bootable Linux (Ubuntu) USB (Enough guides on the internet) and [format your SSD in 4k Sectors](https://github.com/Chilluminati91/Huawei-Matebook-X-Pro-2020-Hackintosh/blob/master/format-nvme-4k.md). This is recommended but not necessary.
 3.  Create a macOS Install Stick (Catalina or Big Sur) with gibmacOS (Guide: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html).
 4.  After the stick is complete close terminal, mount the EFI and add the OpenCore EFI. Open up DiskUtility and eject the Install Partitions on the very bottom first, then eject the USB drive (Eject All)
 5.  Boot your Matebook while holding F2 and change the following Bios settings:
