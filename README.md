@@ -5,9 +5,13 @@ This is a fork of Chilluminati91's Hackintosh git. Since Chilluminati91 stopped 
 ## Notes form usage
 
 I have been using MacOS in this computer for a while now. The battery life is not that great but the performance is very good. The original says that the touchscreen is disabled but it was not. The touch screen works supiysingly well. The biggest problems are:
-1. Bluetooth 4.0 devices don't work
+
+1. Bluetooth 4.0 devices don't work.
+
 2.Touchpad and sometimes stop working. This is because of combatibility issues related to Voodo2 Kekst.
+
 3.During installation if you don't create your usb installer with a Mac, you will need wired internet. The wifi wont wotk during install.
+
 
 I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is because there are issues when you are booting into Windows with OC. I would also reccoend you put your must have apps (like heliport) into the USB installer. It would be a pain to instal it without internet.
 
@@ -49,8 +53,10 @@ I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is beca
 
 If you want to protect your Windows installation there are a few extra steps you need to do before.
 
-1. Increase your Windows EFI size form 100MB to 200MB. (This is crutial. Without doing this during partition formating you can and will corrupt your EFI or wort corrupt ypır entire drive.) I reccomend MiniTool Partition Wizard.
+1. Increase your Windows EFI size form 100MB to 200MB. (This is crutial. Without doing this during partition formating you can and will corrupt your EFI or wort corrupt your entire drive.) I reccomend MiniTool Partition Wizard.
+
 2.Partition the disk you want to install MacOS. Give a minimum of 120GB. It will fill up fast.
+
 3.Format the new partition to FAT32
 
 Now continiue with the singleboot installation.
