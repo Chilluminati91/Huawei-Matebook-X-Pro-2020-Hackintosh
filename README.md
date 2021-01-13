@@ -1,8 +1,15 @@
-# **Huawei Matebook X Pro 2020 macOS Catalina / (Big Sur BETA)**
+# **Huawei Matebook X Pro 2020 macOS Catalina / Big Sur**
 
-OpenCore 6.0.1 Config to run macOS Catalina / (Big Sur BETA) on the Matebook X Pro 2020.
+This is a fork of Chilluminati91's Hackintosh git. Since Chilluminati91 stopped updateing it in September and currently the files he gave don't work without some efford I decideded to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. Sorry for the bad English.
 
-This whole setup took me about 50 work hours to get where it is now, if you want to buy me a beer or donate a bit you can do it [via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dopfunk91%40gmail.com&currency_code=EUR&source=url)! Appreciate it!
+## Notes form usage
+
+I have been using MacOS in this computer for a while now. The battery life is not that great but the performance is very good. The original says that the touchscreen is disabled but it was not. The touch screen works supiysingly well. The biggest problems are:
+1. Bluetooth 4.0 devices don't work
+2.Touchpad and sometimes stop working. This is because of combatibility issues related to Voodo2 Kekst.
+3.During installation if you don't create your usb installer with a Mac, you will need wired internet. The wifi wont wotk during install.
+
+I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is because there are issues when you are booting into Windows with OC. I would also reccoend you put your must have apps (like heliport) into the USB installer. It would be a pain to instal it without internet.
 
 | Device | Spec |
 | --- | --- |
@@ -18,17 +25,10 @@ This whole setup took me about 50 work hours to get where it is now, if you want
 *   Thunderbolt 3 (not tested)
 *   Second USB-C Port (Does work if plugged in while booting)
 *   Bluetooth (4.0 devices not supported yet)
-*   Touchscreen (disabled for now)
+*   Camera
 
-## BIOS Modding:
 
-ATTENTION! THIS CAN DAMAGE YOUR LAPTOP BEYOND REPAIR! 
-
-This is only suggested for people who know what they are doing. I am not going to document the whole process on how to get the variables, but [this guide](https://www.reddit.com/r/MatebookXPro/comments/iih4q9/undervolting_on_all_huawei_devices_even_matebook/) should give you a good idea. Use RU.efi to make the necessary changes (as stated in the linked guide).
-
-<table><tbody><tr><td>Function</td><td>Variable Offset</td><td>Change to</td></tr><tr><td>CFG Lock</td><td>0x3E</td><td>0x0</td></tr><tr><td>Overclocking Lock</td><td>0xDA</td><td>0x0</td></tr></tbody></table>
-
-## Installation:
+## Installation (SingleBoot):
 
 1.  Open the config.plist and make the following Changes:
     *   PlatformInfo: new MLB, System Serial Number and UUID
@@ -41,8 +41,19 @@ This is only suggested for people who know what they are doing. I am not going t
     *   TPM: Disabled
     *   Thunderbolt -> Security Level: No Security
     *   Virtualization Technology: Disabled
+    *   Disable the HDD boot/Windows-Boot (Only for Dualboot installations)
 6.  Insert the Opencore Stick, Boot your Matebook while holding F12 and select the USB drive. Navigate to Install macOS and press enter. Go through the macOS Installer. This will take a while (do not turn off the Laptop if it seems like its frozen) and a couple of automatic reboots. You will get a blackscreen after reaching the Apple logo. Close the lid for a second and open it again. This is necessary every time you boot macOS.
 7.  Go through the macOS Setup
+
+## Installation (Doubleboot with Windows):
+
+If you want to protect your Windows installation there are a few extra steps you need to do before.
+
+1. Increase your Windows EFI size form 100MB to 200MB. (This is crutial. Without doing this during partition formating you can and will corrupt your EFI or wort corrupt ypır entire drive.) I reccomend MiniTool Partition Wizard.
+2.Partition the disk you want to install MacOS. Give a minimum of 120GB. It will fill up fast.
+3.Format the new partition to FAT32
+
+Now continiue with the singleboot installation.
 
 ## Post-Installation:
 
