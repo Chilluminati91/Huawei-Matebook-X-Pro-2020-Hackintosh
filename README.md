@@ -2,6 +2,8 @@
 
 This is a fork of Chilluminati91's Hackintosh git. Since Chilluminati91 stopped updateing it in September and currently the files he gave don't work without some efford I decideded to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. Sorry for the bad English.
 
+Currently working with the latest MacOs Big Sur Verion 11.2
+
 ## Notes form usage
 
 I have been using MacOS in this computer for a while now. The battery life is not that great but the performance is very good. The original says that the touchscreen is disabled but it was not. The touch screen works supiysingly well. The biggest problems are:
