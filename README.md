@@ -1,8 +1,8 @@
 # **Huawei Matebook X Pro 2020 macOS Catalina / Big Sur**
 
-This is a fork of Chilluminati91's Hackintosh git. Since Chilluminati91 stopped updateing it in September and currently the files he gave don't work without some efford I decideded to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. Sorry for the bad English.
+This is a fork of Chilluminati91's Hackintosh Git Repo. Since Chilluminati91 stopped updateing it in September and currently the files he gave don't work without some efford I decideded to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. Sorry for the bad English.
 
-Currently working with the latest MacOs Big Sur Verion 11.2
+Currently working with the latest MacOs Big Sur Verion 11.4
 
 ## Notes form usage
 
