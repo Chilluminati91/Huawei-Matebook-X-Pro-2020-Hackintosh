@@ -1,21 +1,19 @@
 # **Huawei Matebook X Pro 2020 macOS Catalina / Big Sur**
 
-This is a fork of Chilluminati91's Hackintosh Git Repo. Since Chilluminati91 stopped updateing it in September and currently the files he gave don't work without some efford I decideded to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. Sorry for the bad English.
+This is a fork of Chilluminati91's Hackintosh Git Repo. Since Chilluminati91 stopped updating it in September and currently the files he gave don't work without some effort I decided to upload my files with the updated OC and Kekst's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. 
 
-Currently working with the latest MacOs Big Sur Verion 11.4
+Currently working with the latest MacOs Big Sur Verion 12.0
 
 ## Notes form usage
 
-I have been using MacOS in this computer for a while now. The battery life is not that great but the performance is very good. The original says that the touchscreen is disabled but it was not. The touch screen works supiysingly well. The biggest problems are:
+I have been using MacOS in this computer for a while now. The battery life is not that great but the performance is very good. The original says that the touchscreen is disabled but it was not. The touch screen works surprisingly well. The biggest problems are:
 
 1. Bluetooth 4.0 devices don't work.
 
-2.Touchpad and sometimes stop working. This is because of combatibility issues related to Voodo2 Kekst.
-
-3.During installation if you don't create your usb installer with a Mac, you will need wired internet. The wifi wont wotk during install.
+2.During installation if you don't create your usb installer with a Mac, you will need wired internet. The wifi wont work during install.
 
 
-I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is because there are issues when you are booting into Windows with OC. I would also reccoend you put your must have apps (like heliport) into the USB installer. It would be a pain to instal it without internet.
+I STRONGLY recommend that you don't replace the EFI if you dual-boot. This is because there are issues when you are booting into Windows with OC. I would also recommend you put your must have apps (like heliport) into the USB installer. It would be a pain to instal it without internet.
 
 | Device | Spec |
 | --- | --- |
@@ -28,17 +26,16 @@ I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is beca
 
 ### Not working:
 
-*   Thunderbolt 3 (not tested)
 *   Second USB-C Port (Does work if plugged in while booting)
 *   Bluetooth (4.0 devices not supported yet)
 *   Camera
-
+*   E-GPU (Not Tested)
 
 ## Installation (SingleBoot):
 
 1.  Open the config.plist and make the following Changes:
     *   PlatformInfo: new MLB, System Serial Number and UUID
-    *   If you dont have CFG Lock disabled enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
+    *   If you don't have CFG Lock disabled enable AppleCPUPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks
 2.  Create a bootable Linux (Ubuntu) USB (Enough guides on the internet) and [format your SSD in 4k Sectors](https://github.com/Chilluminati91/Huawei-Matebook-X-Pro-2020-Hackintosh/blob/master/format-nvme-4k.md). This is recommended but not necessary.
 3.  Create a macOS Install Stick (Catalina or Big Sur) with gibmacOS (Guide: https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html).
 4.  After the stick is complete close terminal, mount the EFI and add the OpenCore EFI. Open up DiskUtility and eject the Install Partitions on the very bottom first, then eject the USB drive (Eject All)
@@ -47,21 +44,21 @@ I STRONGLY reccomend that you dont replace the EFI if you dualboot. This is beca
     *   TPM: Disabled
     *   Thunderbolt -> Security Level: No Security
     *   Virtualization Technology: Disabled
-    *   Disable the HDD boot/Windows-Boot (Only for Dualboot installations)
-6.  Insert the Opencore Stick, Boot your Matebook while holding F12 and select the USB drive. Navigate to Install macOS and press enter. Go through the macOS Installer. This will take a while (do not turn off the Laptop if it seems like its frozen) and a couple of automatic reboots. You will get a blackscreen after reaching the Apple logo. Close the lid for a second and open it again. This is necessary every time you boot macOS.
+    *   Disable the HDD boot/Windows-Boot (Only for Dual-boot installations)
+6.  Insert the Opencore Stick, Boot your Matebook while holding F12 and select the USB drive. Navigate to Install macOS and press enter. Go through the macOS Installer. This will take a while (do not turn off the Laptop if it seems like its frozen) and a couple of automatic reboots. You will get a black-screen after reaching the Apple logo. Close the lid for a second and open it again. This is necessary every time you boot macOS.
 7.  Go through the macOS Setup
 
-## Installation (Doubleboot with Windows):
+## Installation (Double-boot with Windows):
 
 If you want to protect your Windows installation there are a few extra steps you need to do before.
 
-1. Increase your Windows EFI size form 100MB to 200MB. (This is crutial. Without doing this during partition formating you can and will corrupt your EFI or wort corrupt your entire drive.) I reccomend MiniTool Partition Wizard.
+1. Increase your Windows EFI size form 100MB to 200MB. (This is crucial. Without doing this during partition formatting you can and will corrupt your EFI or wort corrupt your entire drive.) I recommend MiniTool Partition Wizard.
 
 2.Partition the disk you want to install MacOS. Give a minimum of 120GB. It will fill up fast.
 
 3.Format the new partition to FAT32
 
-Now continiue with the singleboot installation.
+Now continue with the single-boot installation.
 
 ## Post-Installation:
 
