@@ -91,7 +91,7 @@ By default macOS only uses 2 out of your 4 speakers which sound muffled and are 
 
 ## Thanks to:
 
-*   [Chilluminati91] (https://github.com/Chilluminati91/Huawei-Matebook-X-Pro-2020-Hackintosh) for the original EFI and template for this project.
+*   [Chilluminati91](https://github.com/Chilluminati91/Huawei-Matebook-X-Pro-2020-Hackintosh) for the original EFI and template for this project.
 *   The [Dortania Team](https://dortania.github.io/OpenCore-Install-Guide/) for their incredible guide and documentation
 *   [moh.96](https://www.tonymacx86.com/members/moh-96.1994677/) and [BlvckBytes](https://www.tonymacx86.com/members/blvckbytes.1808868/) for the battery hotpatch
 *   Rehabman for a lot of great guides and general knowledge
