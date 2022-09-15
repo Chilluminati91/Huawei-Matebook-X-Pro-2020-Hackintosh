@@ -2,6 +2,8 @@
 
 **Currently working with MacOS Monterey ONLY (Added Monterey only Kext's)**
 
+I sadly dont have time to update reguraly so be patient.
+
 This is a fork of Chilluminati91's Hackintosh Git Repo. Since Chilluminati91 stopped updating it in September and currently the files he gave don't work without some effort I decided to upload my files with the updated OC and Kext's. It took me some time to make it work but the bulk of the effort was done by Chilluminati91 so show he some love to him. 
 
 ## Notes
